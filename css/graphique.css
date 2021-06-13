@@ -1,0 +1,100 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "graph1 graph1 graph3 graph3"
+    "graph1 graph1 graph3 graph3"
+    "graph4 graph4 graph2 graph2"
+    "graph4 graph4 graph2 graph2";
+}
+
+.graph1 {
+  grid-area: graph1;
+  margin: 30px 30px 30px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.graph2 {
+  grid-area: graph2;
+  margin: 30px 30px 30px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.graph3 {
+  grid-area: graph3;
+  margin: 30px 30px 30px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.graph4 {
+  grid-area: graph4;
+  margin: 30px 30px 30px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+@media (max-width: 425px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "graph1 graph1"
+      "graph1 graph1"
+      "graph3 graph3"
+      "graph3 graph3"
+      "graph2 graph2"
+      "graph2 graph2"
+      "graph4 graph4";
+  }
+
+  #formmodule {
+    padding-right: 7px;
+  }
+
+  .buttongo {
+    padding: unset;
+  }
+}
+
+@media (max-width: 375px) {
+  #formmodule {
+    justify-content: center;
+  }
+
+  .buttongo {
+    margin-top: 15px;
+  }
+
+  .responsivechart {
+    height: 250px !important;
+    width: 250px !important;
+  }
+
+  .graph1 {
+    margin: unset;
+  }
+
+  .graph2 {
+    margin: unset;
+  }
+
+  .graph3 {
+    margin: unset;
+  }
+
+  .graph4 {
+    margin: unset;
+  }
+}
+
+@media (max-width: 320px) {
+  .responsivechart {
+    height: 200px !important;
+    width: 200px !important;
+  }
+}

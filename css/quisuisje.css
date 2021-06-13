@@ -1,0 +1,54 @@
+#profil {
+    width: 30%;
+    padding-top : 50px;
+    margin: 100px auto;
+    background: #FFFFFF;
+    box-sizing: border-box;
+  }
+  
+  #kapak {
+    height: 50%;
+    position: relative;
+  }
+ 
+ #kapak img {
+   width:100%;
+ }
+  
+  #detail {
+    padding: 40px 10px 10px 10px;
+    text-align: justify;
+    line-height: 1.7em;
+    text-align: center;
+  }
+  
+  #detail h3 {
+    text-align: center;
+    font-style: italic;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin: 10px;
+  }
+  
+  #pr {
+    position: absolute;
+    bottom: -35px;
+    left: 37%;
+  }
+  
+  #pr img {
+    border-radius: 100%;
+    width: 50%;
+  }
+
+  #banniere{
+      border-radius : 15%
+  }
+
+  @media (max-width: 425px) {
+  
+   #profil{
+    width:80%
+   }
+
+  }

@@ -1,0 +1,187 @@
+.card {
+  border-radius: 10%;
+  border: none;
+  width: 16rem;
+}
+
+.p-3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pannefont {
+  font-size: xxx-large;
+}
+
+.panne {
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+.time {
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.card-img,
+.card-img-top {
+  margin: 12px 12px 12px 1px;
+  padding: 12px 12px 12px 12px;
+}
+
+.bigdata {
+  padding-left: 25px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 5px;
+  grid-template-areas:
+    "imgtemp txttemp imgspeed txtspeed"
+    "imgflux txtflux imgenergy txtenergy";
+}
+.imgtemp {
+  grid-area: imgtemp;
+}
+.txttemp {
+  grid-area: txttemp;
+}
+.imgspeed {
+  grid-area: imgspeed;
+}
+.txtspeed {
+  grid-area: txtspeed;
+}
+.imgflux {
+  grid-area: imgflux;
+}
+.txtflux {
+  grid-area: txtflux;
+}
+.imgenergy {
+  grid-area: imgenergy;
+}
+.txtenergy {
+  grid-area: txtenergy;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 5px;
+    grid-template-areas:
+      "imgtemp txttemp"
+      "imgspeed txtspeed"
+      "imgflux txtflux"
+      "imgenergy txtenergy";
+    width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .thebadge {
+    width: 50%;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 5px;
+    grid-template-areas:
+      "imgtemp"
+      "txttemp"
+      "imgspeed"
+      "txtspeed"
+      "imgflux"
+      "txtflux"
+      "imgenergy"
+      "txtenergy";
+    width: 75%;
+  }
+
+  #formmodule {
+    padding-right: 7px;
+  }
+
+  .buttongo {
+    padding: unset;
+  }
+
+  .durationfield {
+    width: 130%;
+    margin-left: 20px;
+    text-indent: -9999px;
+    line-height: 0;
+  }
+  .durationfield::after {
+    content: "Dernière durée";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+  }
+
+  .breakfield {
+    width: 130%;
+    margin-left: 20px;
+    text-indent: -9999px;
+    line-height: 0;
+  }
+
+  .breakfield::after {
+    content: "Nbre pannes";
+    text-indent: 0;
+    display: block;
+    line-height: initial;
+  }
+
+  .textebreak {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  #formmodule {
+    justify-content: center;
+  }
+
+  .buttongo {
+    margin-top: 15px;
+  }
+
+  .card {
+    width: 13rem;
+  }
+
+  .durationfield::after {
+    content: "Dern. durée";
+  }
+}
+
+@media (max-width: 320px) {
+  .thebadge {
+    width: 65%;
+  }
+
+  .breakfield {
+    width: 95%;
+  }
+
+  .durationfield {
+    width: 95%;
+  }
+
+  .durationfield::after {
+    content: "Dernière durée";
+  }
+
+  .card {
+    width: 11rem;
+  }
+}

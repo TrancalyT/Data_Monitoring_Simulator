@@ -1,0 +1,38 @@
+.page-item.active .page-link,
+.page-item.active .dataTable-pagination a,
+.dataTable-pagination .page-item.active a,
+.dataTable-pagination li.active .page-link,
+.dataTable-pagination li.active a {
+  background-color: #565e64;
+  border-color: #565e64;
+}
+
+.page-link,
+.dataTable-pagination a {
+  color: #565e64;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #565e64;
+}
+
+@media (max-width: 425px) {
+  #formmodule {
+    padding-right: 7px;
+  }
+
+  .buttongo {
+    padding: unset;
+  }
+}
+
+@media (max-width: 375px) {
+  #formmodule {
+    justify-content: center;
+  }
+
+  .buttongo {
+    margin-top: 15px;
+  }
+}
