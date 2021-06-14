@@ -37,7 +37,7 @@ function callSideNav()
                             </nav>
                         </div>
                         <div class="sb-sidenav-menu-heading">Extra</div>
-                        <a class="nav-link" href="readme.php">
+                        <a class="nav-link" href="appreadme.php">
                             <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
                             Read me !
                         </a>
