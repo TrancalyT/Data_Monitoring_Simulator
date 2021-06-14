@@ -5,7 +5,7 @@ Simulation Monitoring IoT :
 
 •	PRESENTATION DU PROJET :
 
-Bienvenue sur ce projet. Il s’agit d’une application basique destinée à simuler et mesurer des données. L’application renvoie des données sous différentes formes (tableaux, graphiques, moyennes) afin d’en analyser les chiffres et permet la création d’objets à mesurer.
+Bienvenue sur ce projet développé dans le cadre d'un test. Il s’agit d’une application basique destinée à simuler et mesurer des données. L’application renvoie des données sous différentes formes (tableaux, graphiques, moyennes) afin d’en analyser les chiffres et permet la création d’objets à mesurer.
 
 •	INSTRUCTIONS POUR IMPLEMENTATION :
 
