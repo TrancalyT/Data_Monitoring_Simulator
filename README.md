@@ -20,6 +20,9 @@ Il est également nécessaire de pouvoir exploiter une base de données. Xampp p
 -	Naviguez librement sur l’application !
 
 *si vous rencontrez des soucis de connexion avec la base de données, veillez à fournir le bon chemin à la fonction connectionDB() présente dans DAO/CommonDAO .php.
+
 *si vous rencontrez des soucis de variables inconnues au lancement de l’application, vous avez la possibilité de relancer la session dans le menu de navigation en haut à droite.
+
 *si lors du choix du module via le formulaire « select » présent sur les pages autres que l’index vous rencontrez des difficultés à sélectionner votre module, actualisez votre page en vidant le cache avec le raccourci CTRL+F5.
+
 *il est préférable d’avoir une connexion internet afin de pouvoir accéder à la bibliothèque d’icone en ligne « fontawesome » pour en bénéficier lors de l’affichage.
